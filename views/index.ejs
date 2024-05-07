@@ -1,0 +1,25 @@
+<% include ./partials/header.ejs %>
+  
+  <div class="w-full h-screen bg-zinc-300 flex items-center justify-center" >
+  
+    <div class="w-72 h-[60vh] bg-zinc-100 px-4 py-5 rounded-md">
+
+      <h1 class="text-4xl leading-none">Welcome to pinterest</h1>
+      <form action="">
+        <input class="block w-full px-3 py-2 my-4"type="text" name="username" placeholder="username">
+        <input class="block w-full px-3 py-2 "type="password" name="password" placeholder="password">
+        <a class="mt-2 font-semibold text- inline-block" href="#">Forgot password?</a>
+        <input class="block w-full px-3 py-2  bg-red-600 text-white rounded-full my-3"type="submit" value="login">
+      
+        <a class="mt-2 font-semibold text- inline-block text-center w-full" href="/register">Don't have an account?</a>
+        
+        <p>
+
+        </p>
+      
+      </form>
+
+    </div>
+
+  </div>
+<% include ./partials/footer.ejs %>

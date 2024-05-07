@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html,bod {
+  width: 100%;
+  height: 100%;
+}
+
+
+.remove-arrow::-webkit-inner-spin-button,
+.remove-arrow::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.remove-arrow {
+    -moz-appearance: textfield;
+}
